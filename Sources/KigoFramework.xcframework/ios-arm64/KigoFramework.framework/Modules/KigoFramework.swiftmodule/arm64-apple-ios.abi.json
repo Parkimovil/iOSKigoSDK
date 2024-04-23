@@ -1,0 +1,112 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KigoSDK",
+        "printedName": "KigoSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework0A3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s13KigoFramework0A3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "KigoFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doWork",
+            "printedName": "doWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework0A3SDKV6doWorkyyFZ",
+            "mangledName": "$s13KigoFramework0A3SDKV6doWorkyyFZ",
+            "moduleName": "KigoFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework0A3SDKV",
+        "mangledName": "$s13KigoFramework0A3SDKV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 162,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
+      "kind": "Array",
+      "offset": 206,
+      "length": 29,
+      "value": "[\"KigoKey1234\"]"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 25,
+      "value": "\"Provide a valid api key\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 12,
+      "value": "\"Working Ok\""
+    }
+  ]
+}
