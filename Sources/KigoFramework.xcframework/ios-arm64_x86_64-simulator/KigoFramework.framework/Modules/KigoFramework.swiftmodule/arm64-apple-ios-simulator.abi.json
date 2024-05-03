@@ -15,6 +15,43 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "KigoFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "KigoSDK",
         "printedName": "KigoSDK",
@@ -79,11 +116,216 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 13,
+      "value": "\"scanning QR\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "Dictionary",
+      "offset": 638,
+      "length": 360,
+      "value": "[(\"Accept\", \"application\/json\"), (\"x-version\", \"6.3.217\"), (\"x-platform\", \"ios\"), (\"x-country\", \"mx\"), (\"x-token\", \"a5d654a649a0e6e396445ea87637d7e8974e4ce52327e2e4ab47695127f7289e\"), (\"Content-Type\", \"application\/json\"), (\"x-api-key\", \"WiZPDQyTr49585pDSrY9p1weQmD4fvSK55251ZVL\")]"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 62,
+      "value": "\"https:\/\/legacy.parkimovil.io\/m\/v1\/qr-codes\/read\/v2\/\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 2844,
+      "length": 32,
+      "value": "\"parsing error: \""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 2875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 3260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3270,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3282,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 3477,
+      "length": 18,
+      "value": "\"Validation Error\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 3593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3603,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3615,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 3887,
+      "length": 5,
+      "value": "\"qr=\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 3957,
+      "length": 5,
+      "value": "\"qr=\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3997,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4047,
+      "length": 3,
+      "value": "\"p\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4072,
+      "length": 3,
+      "value": "\"P\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4090,
+      "length": 47,
+      "value": "\"https:\/\/www.pueblacapital.gob.mx\/parquimetros\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4643,
+      "length": 5,
+      "value": "\"qr=\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4708,
+      "length": 32,
+      "value": "\"https:\/\/parkimovil.com\/app?qr=\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4865,
+      "length": 47,
+      "value": "\"https:\/\/www.pueblacapital.gob.mx\/parquimetros\""
+    },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
       "kind": "BooleanLiteral",
