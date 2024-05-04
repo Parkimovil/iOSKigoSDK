@@ -22,6 +22,190 @@
         "moduleName": "KigoFramework"
       },
       {
+        "kind": "TypeDecl",
+        "name": "KigoScanner",
+        "printedName": "KigoScanner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KigoFramework.KigoScannerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KigoScannerDelegate",
+                    "printedName": "KigoFramework.KigoScannerDelegate",
+                    "usr": "s:13KigoFramework0A15ScannerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvpZ",
+            "mangledName": "$s13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvpZ",
+            "moduleName": "KigoFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.KigoScannerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KigoScannerDelegate",
+                        "printedName": "KigoFramework.KigoScannerDelegate",
+                        "usr": "s:13KigoFramework0A15ScannerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvgZ",
+                "mangledName": "$s13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvgZ",
+                "moduleName": "KigoFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.KigoScannerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KigoScannerDelegate",
+                        "printedName": "KigoFramework.KigoScannerDelegate",
+                        "usr": "s:13KigoFramework0A15ScannerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvsZ",
+                "mangledName": "$s13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvsZ",
+                "moduleName": "KigoFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvMZ",
+                "mangledName": "$s13KigoFramework0A7ScannerC8delegateAA0aC8Delegate_pSgvMZ",
+                "moduleName": "KigoFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "scanQrCode",
+            "printedName": "scanQrCode(qrCode:devReference:userKigo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserKigo",
+                "printedName": "KigoFramework.UserKigo",
+                "usr": "s:13KigoFramework04UserA0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework0A7ScannerC10scanQrCode02qrF012devReference04userA0ySS_SSAA04UserA0VtFZ",
+            "mangledName": "$s13KigoFramework0A7ScannerC10scanQrCode02qrF012devReference04userA0ySS_SSAA04UserA0VtFZ",
+            "moduleName": "KigoFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13KigoFramework0A7ScannerC",
+        "mangledName": "$s13KigoFramework0A7ScannerC",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:13KigoFramework0A3SDKC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "KigoFramework.KigoSDK"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -29,6 +213,872 @@
         "moduleName": "KigoFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KigoError",
+        "printedName": "KigoError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework0A5ErrorV4nameSSSgvp",
+            "mangledName": "$s13KigoFramework0A5ErrorV4nameSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A5ErrorV4nameSSSgvg",
+                "mangledName": "$s13KigoFramework0A5ErrorV4nameSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework0A5ErrorV4codeSiSgvp",
+            "mangledName": "$s13KigoFramework0A5ErrorV4codeSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A5ErrorV4codeSiSgvg",
+                "mangledName": "$s13KigoFramework0A5ErrorV4codeSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework0A5ErrorV6statusSiSgvp",
+            "mangledName": "$s13KigoFramework0A5ErrorV6statusSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A5ErrorV6statusSiSgvg",
+                "mangledName": "$s13KigoFramework0A5ErrorV6statusSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework0A5ErrorV7messageSSSgvp",
+            "mangledName": "$s13KigoFramework0A5ErrorV7messageSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework0A5ErrorV7messageSSSgvg",
+                "mangledName": "$s13KigoFramework0A5ErrorV7messageSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KigoError",
+                "printedName": "KigoFramework.KigoError",
+                "usr": "s:13KigoFramework0A5ErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KigoFramework0A5ErrorV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13KigoFramework0A5ErrorV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "KigoFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework0A5ErrorV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13KigoFramework0A5ErrorV6encode2toys7Encoder_p_tKF",
+            "moduleName": "KigoFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework0A5ErrorV",
+        "mangledName": "$s13KigoFramework0A5ErrorV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserKigo",
+        "printedName": "UserKigo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework04UserA0V11countryCodeSSSgvp",
+            "mangledName": "$s13KigoFramework04UserA0V11countryCodeSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V11countryCodeSSSgvg",
+                "mangledName": "$s13KigoFramework04UserA0V11countryCodeSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V11countryCodeSSSgvs",
+                "mangledName": "$s13KigoFramework04UserA0V11countryCodeSSSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V11countryCodeSSSgvM",
+                "mangledName": "$s13KigoFramework04UserA0V11countryCodeSSSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobilePhone",
+            "printedName": "mobilePhone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework04UserA0V11mobilePhoneSSSgvp",
+            "mangledName": "$s13KigoFramework04UserA0V11mobilePhoneSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V11mobilePhoneSSSgvg",
+                "mangledName": "$s13KigoFramework04UserA0V11mobilePhoneSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V11mobilePhoneSSSgvs",
+                "mangledName": "$s13KigoFramework04UserA0V11mobilePhoneSSSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V11mobilePhoneSSSgvM",
+                "mangledName": "$s13KigoFramework04UserA0V11mobilePhoneSSSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userName",
+            "printedName": "userName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework04UserA0V8userNameSSSgvp",
+            "mangledName": "$s13KigoFramework04UserA0V8userNameSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V8userNameSSSgvg",
+                "mangledName": "$s13KigoFramework04UserA0V8userNameSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V8userNameSSSgvs",
+                "mangledName": "$s13KigoFramework04UserA0V8userNameSSSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V8userNameSSSgvM",
+                "mangledName": "$s13KigoFramework04UserA0V8userNameSSSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userEmail",
+            "printedName": "userEmail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework04UserA0V9userEmailSSSgvp",
+            "mangledName": "$s13KigoFramework04UserA0V9userEmailSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V9userEmailSSSgvg",
+                "mangledName": "$s13KigoFramework04UserA0V9userEmailSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V9userEmailSSSgvs",
+                "mangledName": "$s13KigoFramework04UserA0V9userEmailSSSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework04UserA0V9userEmailSSSgvM",
+                "mangledName": "$s13KigoFramework04UserA0V9userEmailSSSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(countryCode:mobilePhone:userName:userEmail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserKigo",
+                "printedName": "KigoFramework.UserKigo",
+                "usr": "s:13KigoFramework04UserA0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KigoFramework04UserA0V11countryCode11mobilePhone8userName0H5EmailACSSSg_A3Htcfc",
+            "mangledName": "$s13KigoFramework04UserA0V11countryCode11mobilePhone8userName0H5EmailACSSSg_A3Htcfc",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework04UserA0V",
+        "mangledName": "$s13KigoFramework04UserA0V",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -128,13 +1178,71 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "KigoScannerDelegate",
+        "printedName": "KigoScannerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onQRScanCompleted",
+            "printedName": "onQRScanCompleted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QRScanResult",
+                "printedName": "KigoFramework.QRScanResult",
+                "usr": "s:13KigoFramework12QRScanResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework0A15ScannerDelegateP17onQRScanCompletedyyAA0F6ResultVF",
+            "mangledName": "$s13KigoFramework0A15ScannerDelegateP17onQRScanCompletedyyAA0F6ResultVF",
+            "moduleName": "KigoFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : KigoFramework.KigoScannerDelegate>",
+            "sugared_genericSig": "<Self where Self : KigoFramework.KigoScannerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KigoError",
+                "printedName": "KigoFramework.KigoError",
+                "usr": "s:13KigoFramework0A5ErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework0A15ScannerDelegateP7onErroryyAA0aF0VF",
+            "mangledName": "$s13KigoFramework0A15ScannerDelegateP7onErroryyAA0aF0VF",
+            "moduleName": "KigoFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : KigoFramework.KigoScannerDelegate>",
+            "sugared_genericSig": "<Self where Self : KigoFramework.KigoScannerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13KigoFramework0A15ScannerDelegateP",
+        "mangledName": "$s13KigoFramework0A15ScannerDelegateP",
         "moduleName": "KigoFramework",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -146,6 +1254,1463 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRScanResult",
+        "printedName": "QRScanResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ticket",
+            "printedName": "ticket",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KigoFramework.Ticket?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ticket",
+                    "printedName": "KigoFramework.Ticket",
+                    "usr": "s:13KigoFramework6TicketV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework12QRScanResultV6ticketAA6TicketVSgvp",
+            "mangledName": "$s13KigoFramework12QRScanResultV6ticketAA6TicketVSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.Ticket?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ticket",
+                        "printedName": "KigoFramework.Ticket",
+                        "usr": "s:13KigoFramework6TicketV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework12QRScanResultV6ticketAA6TicketVSgvg",
+                "mangledName": "$s13KigoFramework12QRScanResultV6ticketAA6TicketVSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.Ticket?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ticket",
+                        "printedName": "KigoFramework.Ticket",
+                        "usr": "s:13KigoFramework6TicketV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework12QRScanResultV6ticketAA6TicketVSgvs",
+                "mangledName": "$s13KigoFramework12QRScanResultV6ticketAA6TicketVSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework12QRScanResultV6ticketAA6TicketVSgvM",
+                "mangledName": "$s13KigoFramework12QRScanResultV6ticketAA6TicketVSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "qrCode",
+            "printedName": "qrCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework12QRScanResultV6qrCodeSSSgvp",
+            "mangledName": "$s13KigoFramework12QRScanResultV6qrCodeSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework12QRScanResultV6qrCodeSSSgvg",
+                "mangledName": "$s13KigoFramework12QRScanResultV6qrCodeSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework12QRScanResultV6qrCodeSSSgvs",
+                "mangledName": "$s13KigoFramework12QRScanResultV6qrCodeSSSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework12QRScanResultV6qrCodeSSSgvM",
+                "mangledName": "$s13KigoFramework12QRScanResultV6qrCodeSSSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework12QRScanResultV",
+        "mangledName": "$s13KigoFramework12QRScanResultV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Ticket",
+        "printedName": "Ticket",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework6TicketV2idSiSgvp",
+            "mangledName": "$s13KigoFramework6TicketV2idSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV2idSiSgvg",
+                "mangledName": "$s13KigoFramework6TicketV2idSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV2idSiSgvs",
+                "mangledName": "$s13KigoFramework6TicketV2idSiSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV2idSiSgvM",
+                "mangledName": "$s13KigoFramework6TicketV2idSiSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkIn",
+            "printedName": "checkIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KigoFramework.TicketCheckIn?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketCheckIn",
+                    "printedName": "KigoFramework.TicketCheckIn",
+                    "usr": "s:13KigoFramework13TicketCheckInV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvp",
+            "mangledName": "$s13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.TicketCheckIn?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketCheckIn",
+                        "printedName": "KigoFramework.TicketCheckIn",
+                        "usr": "s:13KigoFramework13TicketCheckInV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvg",
+                "mangledName": "$s13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.TicketCheckIn?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketCheckIn",
+                        "printedName": "KigoFramework.TicketCheckIn",
+                        "usr": "s:13KigoFramework13TicketCheckInV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvs",
+                "mangledName": "$s13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvM",
+                "mangledName": "$s13KigoFramework6TicketV7checkInAA0c5CheckE0VSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkOut",
+            "printedName": "checkOut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KigoFramework.TicketCheckOut?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketCheckOut",
+                    "printedName": "KigoFramework.TicketCheckOut",
+                    "usr": "s:13KigoFramework14TicketCheckOutV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvp",
+            "mangledName": "$s13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.TicketCheckOut?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketCheckOut",
+                        "printedName": "KigoFramework.TicketCheckOut",
+                        "usr": "s:13KigoFramework14TicketCheckOutV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvg",
+                "mangledName": "$s13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.TicketCheckOut?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketCheckOut",
+                        "printedName": "KigoFramework.TicketCheckOut",
+                        "usr": "s:13KigoFramework14TicketCheckOutV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvs",
+                "mangledName": "$s13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvM",
+                "mangledName": "$s13KigoFramework6TicketV8checkOutAA0c5CheckE0VSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parkingLot",
+            "printedName": "parkingLot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KigoFramework.TicketParkingLot?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketParkingLot",
+                    "printedName": "KigoFramework.TicketParkingLot",
+                    "usr": "s:13KigoFramework16TicketParkingLotV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvp",
+            "mangledName": "$s13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.TicketParkingLot?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketParkingLot",
+                        "printedName": "KigoFramework.TicketParkingLot",
+                        "usr": "s:13KigoFramework16TicketParkingLotV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvg",
+                "mangledName": "$s13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KigoFramework.TicketParkingLot?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketParkingLot",
+                        "printedName": "KigoFramework.TicketParkingLot",
+                        "usr": "s:13KigoFramework16TicketParkingLotV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvs",
+                "mangledName": "$s13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvM",
+                "mangledName": "$s13KigoFramework6TicketV10parkingLotAA0c7ParkingE0VSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework6TicketV",
+        "mangledName": "$s13KigoFramework6TicketV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TicketCheckIn",
+        "printedName": "TicketCheckIn",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework13TicketCheckInV2idSiSgvp",
+            "mangledName": "$s13KigoFramework13TicketCheckInV2idSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework13TicketCheckInV2idSiSgvg",
+                "mangledName": "$s13KigoFramework13TicketCheckInV2idSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework13TicketCheckInV2idSiSgvs",
+                "mangledName": "$s13KigoFramework13TicketCheckInV2idSiSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework13TicketCheckInV2idSiSgvM",
+                "mangledName": "$s13KigoFramework13TicketCheckInV2idSiSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkInDate",
+            "printedName": "checkInDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework13TicketCheckInV05checkE4DateSiSgvp",
+            "mangledName": "$s13KigoFramework13TicketCheckInV05checkE4DateSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework13TicketCheckInV05checkE4DateSiSgvg",
+                "mangledName": "$s13KigoFramework13TicketCheckInV05checkE4DateSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework13TicketCheckInV05checkE4DateSiSgvs",
+                "mangledName": "$s13KigoFramework13TicketCheckInV05checkE4DateSiSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework13TicketCheckInV05checkE4DateSiSgvM",
+                "mangledName": "$s13KigoFramework13TicketCheckInV05checkE4DateSiSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework13TicketCheckInV",
+        "mangledName": "$s13KigoFramework13TicketCheckInV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TicketCheckOut",
+        "printedName": "TicketCheckOut",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework14TicketCheckOutV2idSiSgvp",
+            "mangledName": "$s13KigoFramework14TicketCheckOutV2idSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework14TicketCheckOutV2idSiSgvg",
+                "mangledName": "$s13KigoFramework14TicketCheckOutV2idSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework14TicketCheckOutV2idSiSgvs",
+                "mangledName": "$s13KigoFramework14TicketCheckOutV2idSiSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework14TicketCheckOutV2idSiSgvM",
+                "mangledName": "$s13KigoFramework14TicketCheckOutV2idSiSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkOutDate",
+            "printedName": "checkOutDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework14TicketCheckOutV05checkE4DateSiSgvp",
+            "mangledName": "$s13KigoFramework14TicketCheckOutV05checkE4DateSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework14TicketCheckOutV05checkE4DateSiSgvg",
+                "mangledName": "$s13KigoFramework14TicketCheckOutV05checkE4DateSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework14TicketCheckOutV05checkE4DateSiSgvs",
+                "mangledName": "$s13KigoFramework14TicketCheckOutV05checkE4DateSiSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework14TicketCheckOutV05checkE4DateSiSgvM",
+                "mangledName": "$s13KigoFramework14TicketCheckOutV05checkE4DateSiSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework14TicketCheckOutV",
+        "mangledName": "$s13KigoFramework14TicketCheckOutV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TicketParkingLot",
+        "printedName": "TicketParkingLot",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework16TicketParkingLotV2idSiSgvp",
+            "mangledName": "$s13KigoFramework16TicketParkingLotV2idSiSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework16TicketParkingLotV2idSiSgvg",
+                "mangledName": "$s13KigoFramework16TicketParkingLotV2idSiSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework16TicketParkingLotV2idSiSgvs",
+                "mangledName": "$s13KigoFramework16TicketParkingLotV2idSiSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework16TicketParkingLotV2idSiSgvM",
+                "mangledName": "$s13KigoFramework16TicketParkingLotV2idSiSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parkingLotName",
+            "printedName": "parkingLotName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvp",
+            "mangledName": "$s13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvp",
+            "moduleName": "KigoFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvg",
+                "mangledName": "$s13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvg",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvs",
+                "mangledName": "$s13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvs",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvM",
+                "mangledName": "$s13KigoFramework16TicketParkingLotV07parkingE4NameSSSgvM",
+                "moduleName": "KigoFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TicketParkingLot",
+                "printedName": "KigoFramework.TicketParkingLot",
+                "usr": "s:13KigoFramework16TicketParkingLotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13KigoFramework16TicketParkingLotV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13KigoFramework16TicketParkingLotV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "KigoFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KigoFramework16TicketParkingLotV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13KigoFramework16TicketParkingLotV6encode2toys7Encoder_p_tKF",
+            "moduleName": "KigoFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13KigoFramework16TicketParkingLotV",
+        "mangledName": "$s13KigoFramework16TicketParkingLotV",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -154,175 +2719,175 @@
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 454,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 593,
       "length": 13,
       "value": "\"scanning QR\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "Dictionary",
-      "offset": 638,
+      "offset": 652,
       "length": 360,
       "value": "[(\"Accept\", \"application\/json\"), (\"x-version\", \"6.3.217\"), (\"x-platform\", \"ios\"), (\"x-country\", \"mx\"), (\"x-token\", \"a5d654a649a0e6e396445ea87637d7e8974e4ce52327e2e4ab47695127f7289e\"), (\"Content-Type\", \"application\/json\"), (\"x-api-key\", \"WiZPDQyTr49585pDSrY9p1weQmD4fvSK55251ZVL\")]"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1216,
       "length": 62,
       "value": "\"https:\/\/legacy.parkimovil.io\/m\/v1\/qr-codes\/read\/v2\/\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1277,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 2844,
+      "offset": 2858,
       "length": 32,
       "value": "\"parsing error: \""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 2889,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3274,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3270,
+      "offset": 3284,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3282,
+      "offset": 3296,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 3477,
+      "offset": 3491,
       "length": 18,
       "value": "\"Validation Error\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 3593,
+      "offset": 3607,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3603,
+      "offset": 3617,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3615,
+      "offset": 3629,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 3901,
       "length": 5,
       "value": "\"qr=\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 3957,
+      "offset": 3971,
       "length": 5,
       "value": "\"qr=\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3997,
+      "offset": 4011,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4047,
+      "offset": 4061,
       "length": 3,
       "value": "\"p\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4072,
+      "offset": 4086,
       "length": 3,
       "value": "\"P\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4090,
+      "offset": 4104,
       "length": 47,
       "value": "\"https:\/\/www.pueblacapital.gob.mx\/parquimetros\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4161,
+      "offset": 4175,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4643,
+      "offset": 4657,
       "length": 5,
       "value": "\"qr=\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4708,
+      "offset": 4722,
       "length": 32,
       "value": "\"https:\/\/parkimovil.com\/app?qr=\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4748,
+      "offset": 4762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
       "kind": "StringLiteral",
-      "offset": 4865,
+      "offset": 4879,
       "length": 47,
       "value": "\"https:\/\/www.pueblacapital.gob.mx\/parquimetros\""
     },

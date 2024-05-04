@@ -9,8 +9,56 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KigoScanner : KigoFramework.KigoSDK {
+  public static var delegate: (any KigoFramework.KigoScannerDelegate)?
+  public static func scanQrCode(qrCode: Swift.String, devReference: Swift.String, userKigo: KigoFramework.UserKigo)
+  @objc deinit
+}
+public struct KigoError : Swift.Codable {
+  public let name: Swift.String?
+  public let code: Swift.Int?
+  public let status: Swift.Int?
+  public let message: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserKigo {
+  public var countryCode: Swift.String?
+  public var mobilePhone: Swift.String?
+  public var userName: Swift.String?
+  public var userEmail: Swift.String?
+  public init(countryCode: Swift.String? = nil, mobilePhone: Swift.String? = nil, userName: Swift.String? = nil, userEmail: Swift.String? = nil)
+}
 @_hasMissingDesignatedInitializers public class KigoSDK {
   public static func configure(apiKey: Swift.String)
   public static func checkApiKey() -> Swift.Bool
   @objc deinit
+}
+public protocol KigoScannerDelegate {
+  func onQRScanCompleted(_ result: KigoFramework.QRScanResult)
+  func onError(_ error: KigoFramework.KigoError)
+}
+public struct QRScanResult {
+  public var ticket: KigoFramework.Ticket?
+  public var qrCode: Swift.String?
+}
+public struct Ticket {
+  public var id: Swift.Int?
+  public var checkIn: KigoFramework.TicketCheckIn?
+  public var checkOut: KigoFramework.TicketCheckOut?
+  public var parkingLot: KigoFramework.TicketParkingLot?
+}
+public struct TicketCheckIn {
+  public var id: Swift.Int?
+  public var checkInDate: Swift.Int?
+}
+public struct TicketCheckOut {
+  public var id: Swift.Int?
+  public var checkOutDate: Swift.Int?
+}
+public struct TicketParkingLot : Swift.Codable {
+  public var id: Swift.Int?
+  public var parkingLotName: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
