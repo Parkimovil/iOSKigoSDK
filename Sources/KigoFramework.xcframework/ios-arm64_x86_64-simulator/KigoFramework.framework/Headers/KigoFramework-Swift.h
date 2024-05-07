@@ -277,6 +277,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
+@import CoreFoundation;
+@import Foundation;
+@import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -297,6 +302,83 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class AVCaptureMetadataOutput;
+@class AVMetadataObject;
+@class AVCaptureConnection;
+
+/// Reader object base on the <code>AVCaptureDevice</code> to read / scan 1D and 2D codes.
+SWIFT_CLASS("_TtC13KigoFramework12QRCodeReader")
+@interface QRCodeReader : NSObject <AVCaptureMetadataOutputObjectsDelegate>
+/// Initializes the code reader with the QRCode metadata type object.
+- (nonnull instancetype)init;
+- (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
+
+@class NSCoder;
+
+SWIFT_CLASS("_TtC13KigoFramework16QRCodeReaderView")
+@interface QRCodeReaderView : UIView
+- (void)layoutSubviews;
+- (void)setNeedsUpdateOrientation;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSString;
+@class NSBundle;
+
+/// Convenient controller to display a view to scan/read 1D or 2D bar codes like the QRCodes. It is based on the <code>AVFoundation</code> framework from Apple. It aims to replace ZXing or ZBar for iOS 7 and over.
+SWIFT_CLASS("_TtC13KigoFramework26QRCodeReaderViewController")
+@interface QRCodeReaderViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewWillLayoutSubviews;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+/// Overlay over the camera view to display the area (a square) where to scan the code.
+SWIFT_CLASS("_TtC13KigoFramework17ReaderOverlayView")
+@interface ReaderOverlayView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)drawRect:(CGRect)rect;
+@end
+
+
+@class UITouch;
+@class UIEvent;
+
+/// The camera switch button.
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC13KigoFramework18SwitchCameraButton")
+@interface SwitchCameraButton : UIButton
+- (void)drawRect:(CGRect)rect;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nullable)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// The toggle torch button.
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC13KigoFramework17ToggleTorchButton")
+@interface ToggleTorchButton : UIButton
+- (void)drawRect:(CGRect)rect;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nullable)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -584,6 +666,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
+@import CoreFoundation;
+@import Foundation;
+@import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -604,6 +691,83 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class AVCaptureMetadataOutput;
+@class AVMetadataObject;
+@class AVCaptureConnection;
+
+/// Reader object base on the <code>AVCaptureDevice</code> to read / scan 1D and 2D codes.
+SWIFT_CLASS("_TtC13KigoFramework12QRCodeReader")
+@interface QRCodeReader : NSObject <AVCaptureMetadataOutputObjectsDelegate>
+/// Initializes the code reader with the QRCode metadata type object.
+- (nonnull instancetype)init;
+- (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
+
+@class NSCoder;
+
+SWIFT_CLASS("_TtC13KigoFramework16QRCodeReaderView")
+@interface QRCodeReaderView : UIView
+- (void)layoutSubviews;
+- (void)setNeedsUpdateOrientation;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSString;
+@class NSBundle;
+
+/// Convenient controller to display a view to scan/read 1D or 2D bar codes like the QRCodes. It is based on the <code>AVFoundation</code> framework from Apple. It aims to replace ZXing or ZBar for iOS 7 and over.
+SWIFT_CLASS("_TtC13KigoFramework26QRCodeReaderViewController")
+@interface QRCodeReaderViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewWillLayoutSubviews;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+/// Overlay over the camera view to display the area (a square) where to scan the code.
+SWIFT_CLASS("_TtC13KigoFramework17ReaderOverlayView")
+@interface ReaderOverlayView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)drawRect:(CGRect)rect;
+@end
+
+
+@class UITouch;
+@class UIEvent;
+
+/// The camera switch button.
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC13KigoFramework18SwitchCameraButton")
+@interface SwitchCameraButton : UIButton
+- (void)drawRect:(CGRect)rect;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nullable)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// The toggle torch button.
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC13KigoFramework17ToggleTorchButton")
+@interface ToggleTorchButton : UIButton
+- (void)drawRect:(CGRect)rect;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nullable)touches withEvent:(UIEvent * _Nullable)event;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
