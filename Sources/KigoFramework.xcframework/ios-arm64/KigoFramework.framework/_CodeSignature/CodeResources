@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KigoFramework-Swift.h</key>
 		<data>
-		REpeeIn1ODHuYS1i4Ey6Mj5PLO4=
+		WQ/eIx59834Dk1SKxnFW2E0kNR0=
 		</data>
 		<key>Headers/KigoFramework.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bsLHG1Dz2GGFqFnmGqwozXV69q4=
+		gFaI0t1wwqD33scCrwOuKf2qXiI=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wbDRl9apUXuVPmu5etz42F/99lw=
+		nMJAo/j+c/KbjzrjugcQFNRTUO8=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		MzCXZwvnPFxVrQicN0Fj+y8TsKk=
+		qTaNhYCNL8+w9kksXjxt7MA1oXM=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		+nDpFwJP1X3UIQyaEMOKjcN3Qes=
+		anLYqJw6QGHrglvPZAHtJFyUT9I=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MzCXZwvnPFxVrQicN0Fj+y8TsKk=
+		qTaNhYCNL8+w9kksXjxt7MA1oXM=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rk1Rl2y+7YMBS/zQyjpvBgCFGWU=
+		StlmXBFIcUUObLUMV/z5P9UFrTg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYsy6biBcY3Ux6874gVPB+6zkdli8pqLD1/ub6T4NPI=
+			dDRNsJToqoIHONos9ncNOuCKIrJLWFUDLE+tpye5yUk=
 			</data>
 		</dict>
 		<key>Headers/KigoFramework.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyhQlN6t46nfKgevVW/xX1yIsOgY+dQtTpRzVskb3b8=
+			vQJsG0HNnMEMsbbiAPX5RT9K2Lcqt5jKvsyv1dneR7g=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/Hh4DJhBQfecF29JtVuiFW0przKXfq7WrGd4dRZ8HA=
+			EbCdLYQk0BcYJSOufgHvbKK9jQ+br20dD5r7u1Y9bWk=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kBZstgE99nI5PGp++7B8dGm5C5uTmFW5W9lmHBS+qvw=
+			et/k42yGhPnztdCtUieIbWyWH9ABVWNzYo0y+tUuCe8=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/Hh4DJhBQfecF29JtVuiFW0przKXfq7WrGd4dRZ8HA=
+			EbCdLYQk0BcYJSOufgHvbKK9jQ+br20dD5r7u1Y9bWk=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w4UqDhIKhoHRDVtDhFRstYTBfWNmHwVyCluv3I6zQAM=
+			F7hd2pgcV2j3TUew8LoHL4ke53o03abTvK2qQADeyug=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

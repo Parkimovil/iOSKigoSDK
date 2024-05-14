@@ -449,13 +449,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "KigoFramework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "KigoScanner",
         "printedName": "KigoScanner",
@@ -468,12 +461,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KigoFramework.KigoScannerDelegate?",
+                "printedName": "(any KigoFramework.KigoScannerDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "KigoScannerDelegate",
-                    "printedName": "KigoFramework.KigoScannerDelegate",
+                    "printedName": "any KigoFramework.KigoScannerDelegate",
                     "usr": "s:13KigoFramework0A15ScannerDelegateP"
                   }
                 ],
@@ -501,12 +494,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.KigoScannerDelegate?",
+                    "printedName": "(any KigoFramework.KigoScannerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "KigoScannerDelegate",
-                        "printedName": "KigoFramework.KigoScannerDelegate",
+                        "printedName": "any KigoFramework.KigoScannerDelegate",
                         "usr": "s:13KigoFramework0A15ScannerDelegateP"
                       }
                     ],
@@ -537,12 +530,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.KigoScannerDelegate?",
+                    "printedName": "(any KigoFramework.KigoScannerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "KigoScannerDelegate",
-                        "printedName": "KigoFramework.KigoScannerDelegate",
+                        "printedName": "any KigoFramework.KigoScannerDelegate",
                         "usr": "s:13KigoFramework0A15ScannerDelegateP"
                       }
                     ],
@@ -659,7 +652,8 @@
         "mangledName": "$s13KigoFramework0A7ScannerC",
         "moduleName": "KigoFramework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "superclassUsr": "s:13KigoFramework0A3SDKC",
         "inheritsConvenienceInitializers": true,
@@ -699,12 +693,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KigoFramework.QRCodeReaderViewOverlay?",
+                "printedName": "(any KigoFramework.QRCodeReaderViewOverlay)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "QRCodeReaderViewOverlay",
-                    "printedName": "KigoFramework.QRCodeReaderViewOverlay",
+                    "printedName": "any KigoFramework.QRCodeReaderViewOverlay",
                     "usr": "s:13KigoFramework23QRCodeReaderViewOverlayP"
                   }
                 ],
@@ -716,8 +710,8 @@
             "mangledName": "$s13KigoFramework16QRCodeReaderViewC07overlayE0AA0cdE7Overlay_pSgvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "Lazy",
               "AccessControl"
             ],
@@ -730,12 +724,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.QRCodeReaderViewOverlay?",
+                    "printedName": "(any KigoFramework.QRCodeReaderViewOverlay)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QRCodeReaderViewOverlay",
-                        "printedName": "KigoFramework.QRCodeReaderViewOverlay",
+                        "printedName": "any KigoFramework.QRCodeReaderViewOverlay",
                         "usr": "s:13KigoFramework23QRCodeReaderViewOverlayP"
                       }
                     ],
@@ -765,12 +759,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.QRCodeReaderViewOverlay?",
+                    "printedName": "(any KigoFramework.QRCodeReaderViewOverlay)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QRCodeReaderViewOverlay",
-                        "printedName": "KigoFramework.QRCodeReaderViewOverlay",
+                        "printedName": "any KigoFramework.QRCodeReaderViewOverlay",
                         "usr": "s:13KigoFramework23QRCodeReaderViewOverlayP"
                       }
                     ],
@@ -827,10 +821,10 @@
             "mangledName": "$s13KigoFramework16QRCodeReaderViewC06cameraE0So6UIViewCvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "isLet": true,
@@ -885,8 +879,8 @@
             "mangledName": "$s13KigoFramework16QRCodeReaderViewC12cancelButtonSo8UIButtonCSgvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "Lazy",
               "AccessControl"
             ],
@@ -1004,8 +998,8 @@
             "mangledName": "$s13KigoFramework16QRCodeReaderViewC18switchCameraButtonSo8UIButtonCSgvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "Lazy",
               "AccessControl"
             ],
@@ -1123,8 +1117,8 @@
             "mangledName": "$s13KigoFramework16QRCodeReaderViewC17toggleTorchButtonSo8UIButtonCSgvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "Lazy",
               "AccessControl"
             ],
@@ -2889,7 +2883,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2914,7 +2908,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2949,6 +2943,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KigoFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -3578,7 +3582,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "KigoFramework.QRCodeReaderViewControllerDelegate?"
+                "printedName": "(any KigoFramework.QRCodeReaderViewControllerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -3586,9 +3590,9 @@
             "mangledName": "$s13KigoFramework26QRCodeReaderViewControllerC8delegateAA0cdeF8Delegate_pSgvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "RawDocComment"
@@ -3604,12 +3608,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.QRCodeReaderViewControllerDelegate?",
+                    "printedName": "(any KigoFramework.QRCodeReaderViewControllerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QRCodeReaderViewControllerDelegate",
-                        "printedName": "KigoFramework.QRCodeReaderViewControllerDelegate",
+                        "printedName": "any KigoFramework.QRCodeReaderViewControllerDelegate",
                         "usr": "s:13KigoFramework34QRCodeReaderViewControllerDelegateP"
                       }
                     ],
@@ -3636,12 +3640,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.QRCodeReaderViewControllerDelegate?",
+                    "printedName": "(any KigoFramework.QRCodeReaderViewControllerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QRCodeReaderViewControllerDelegate",
-                        "printedName": "KigoFramework.QRCodeReaderViewControllerDelegate",
+                        "printedName": "any KigoFramework.QRCodeReaderViewControllerDelegate",
                         "usr": "s:13KigoFramework34QRCodeReaderViewControllerDelegateP"
                       }
                     ],
@@ -3720,9 +3724,9 @@
             "mangledName": "$s13KigoFramework26QRCodeReaderViewControllerC15completionBlockyAA0cD6ResultVSgcSgvp",
             "moduleName": "KigoFramework",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4494,12 +4498,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KigoFramework.QRCodeReaderViewOverlay?",
+                "printedName": "(any KigoFramework.QRCodeReaderViewOverlay)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "QRCodeReaderViewOverlay",
-                    "printedName": "KigoFramework.QRCodeReaderViewOverlay",
+                    "printedName": "any KigoFramework.QRCodeReaderViewOverlay",
                     "usr": "s:13KigoFramework23QRCodeReaderViewOverlayP"
                   }
                 ],
@@ -4523,12 +4527,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "KigoFramework.QRCodeReaderViewOverlay?",
+                    "printedName": "(any KigoFramework.QRCodeReaderViewOverlay)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "QRCodeReaderViewOverlay",
-                        "printedName": "KigoFramework.QRCodeReaderViewOverlay",
+                        "printedName": "any KigoFramework.QRCodeReaderViewOverlay",
                         "usr": "s:13KigoFramework23QRCodeReaderViewOverlayP"
                       }
                     ],
@@ -9139,7 +9143,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9164,7 +9168,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9205,265 +9209,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1959,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1988,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2026,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2071,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2117,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2163,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2406,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2452,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2584,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2599,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2663,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2669,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2693,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ToggleTorchButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2719,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 595,
-      "length": 13,
-      "value": "\"scanning QR\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "Dictionary",
-      "offset": 654,
-      "length": 360,
-      "value": "[(\"Accept\", \"application\/json\"), (\"x-version\", \"6.3.217\"), (\"x-platform\", \"ios\"), (\"x-country\", \"mx\"), (\"x-token\", \"a5d654a649a0e6e396445ea87637d7e8974e4ce52327e2e4ab47695127f7289e\"), (\"Content-Type\", \"application\/json\"), (\"x-api-key\", \"WiZPDQyTr49585pDSrY9p1weQmD4fvSK55251ZVL\")]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 1218,
-      "length": 62,
-      "value": "\"https:\/\/legacy.parkimovil.io\/m\/v1\/qr-codes\/read\/v2\/\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 1279,
-      "length": 57,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 3278,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3288,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3300,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 3495,
-      "length": 18,
-      "value": "\"Validation Error\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 3611,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3621,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3633,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 3905,
-      "length": 5,
-      "value": "\"qr=\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 3975,
-      "length": 5,
-      "value": "\"qr=\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4015,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4065,
-      "length": 3,
-      "value": "\"p\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4090,
-      "length": 3,
-      "value": "\"P\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4108,
-      "length": 47,
-      "value": "\"https:\/\/www.pueblacapital.gob.mx\/parquimetros\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4179,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4661,
-      "length": 5,
-      "value": "\"qr=\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4726,
-      "length": 32,
-      "value": "\"https:\/\/parkimovil.com\/app?qr=\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4766,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/KigoScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 4883,
-      "length": 47,
-      "value": "\"https:\/\/www.pueblacapital.gob.mx\/parquimetros\""
-    },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
       "kind": "BooleanLiteral",
@@ -9514,181 +9259,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 2905,
-      "length": 4,
-      "value": "\"cv\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 2923,
-      "length": 4,
-      "value": "\"ov\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 2933,
-      "length": 4,
-      "value": "\"cb\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 2943,
-      "length": 5,
-      "value": "\"scb\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 2955,
-      "length": 5,
-      "value": "\"ttb\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3036,
-      "length": 10,
-      "value": "\"H:|[cv]|\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3057,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3195,
-      "length": 18,
-      "value": "\"V:|[cv][cb(40)]|\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3224,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3327,
-      "length": 12,
-      "value": "\"H:|-[cb]-|\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3350,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3470,
-      "length": 10,
-      "value": "\"V:|[cv]|\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3491,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3641,
-      "length": 15,
-      "value": "\"V:|-[scb(50)]\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3667,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3770,
-      "length": 14,
-      "value": "\"H:[scb(70)]|\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3795,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 3938,
-      "length": 15,
-      "value": "\"V:|-[ttb(50)]\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 3964,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 4067,
-      "length": 14,
-      "value": "\"H:|[ttb(70)]\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "Array",
-      "offset": 4092,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4367,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4380,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4783,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6503,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
       "kind": "StringLiteral",
       "offset": 1551,
@@ -9717,109 +9287,25 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8314,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10983,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/RestManager.swift",
       "kind": "StringLiteral",
-      "offset": 11608,
-      "length": 25,
-      "value": "\"com.yannickloriot.error\""
+      "offset": 376,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11641,
-      "length": 5,
-      "value": "-1001"
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/RestManager.swift",
+      "kind": "Dictionary",
+      "offset": 5018,
+      "length": 3,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
+      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Networking\/RestManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12007,
+      "offset": 5528,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12342,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12374,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4073,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4886,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4899,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4913,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5077,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5242,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5255,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5269,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewController.swift",
@@ -9827,286 +9313,6 @@
       "offset": 1431,
       "length": 26,
       "value": "\"KigoFramework.QRCodeReaderViewController\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1767,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1795,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1832,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2072,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2113,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2163,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2212,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2251,
-      "length": 2,
-      "value": "80"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2460,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2513,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2564,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2607,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2660,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2711,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3036,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3084,
-      "length": 4,
-      "value": "0.17"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3134,
-      "length": 4,
-      "value": "0.14"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3210,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3844,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3899,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3904,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3952,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4007,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 4012,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 4084,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 4133,
-      "length": 4,
-      "value": "0.45"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4348,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4456,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4581,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4706,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4814,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4922,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 4991,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 5041,
-      "length": 4,
-      "value": "0.60"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5263,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5374,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5502,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5630,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5741,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/SwitchCameraButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5852,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
@@ -10121,90 +9327,6 @@
       "offset": 899,
       "length": 29,
       "value": "[\"KigoKey1234\"]"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1124,
-      "length": 25,
-      "value": "\"Provide a valid api key\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2036,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2085,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2135,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2184,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2833,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 2989,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 3025,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 3042,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 3056,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 3071,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/KigoSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3233,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/QRCodeReaderViewControllerBuilder.swift",
@@ -10387,13 +9509,6 @@
       "offset": 3120,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/javalex\/Documents\/Parkimovil\/Repo code\/KigoFramework\/KigoFramework\/Reader\/ReaderOverlayView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3509,
-      "length": 1,
-      "value": "5"
     }
   ]
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KigoFramework-Swift.h</key>
 		<data>
-		y0Ae9GBD327XUOaHk/7/C1rMA1U=
+		9BtUEsW0mFWeJ5wItWLqqECshls=
 		</data>
 		<key>Headers/KigoFramework.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jvfZsH9pggmWOzsh6ZTEbjsyUqI=
+		G1A1akZ4DGOMNJ3U8YzkKQJ+R7U=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wbDRl9apUXuVPmu5etz42F/99lw=
+		nMJAo/j+c/KbjzrjugcQFNRTUO8=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FDCOafig4VBYH37DsnjF1pMY58M=
+		LAvhiwni60I3lQiNVYPK83QVYxU=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IP3F+mEaNXn8EiItQERO8uuN7cw=
+		nNmSBQgcO8yRZtgS3sDZHFxeIyM=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FDCOafig4VBYH37DsnjF1pMY58M=
+		LAvhiwni60I3lQiNVYPK83QVYxU=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VAPIuXBpptwCwdlFR6PMjP7qD9s=
+		sAY4YZuakdZeQdj4kF17mMBH1WM=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wbDRl9apUXuVPmu5etz42F/99lw=
+		nMJAo/j+c/KbjzrjugcQFNRTUO8=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yKdJaQfsaKWySbvmjVDu2v31OUA=
+		OMtqs+zCCwpn6HjLTWC1txFRlCE=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		b7p5spyRWppjPOjQOZ0GeYBBcrs=
+		LkWUkHhmGDf46Vlw1zPFpUgOzG8=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yKdJaQfsaKWySbvmjVDu2v31OUA=
+		OMtqs+zCCwpn6HjLTWC1txFRlCE=
 		</data>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qYTCM65v3yVFkcqORkSGwHHAQJ8=
+		JmyYGianxJ2bGYUR5HVY4cAlE1I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nb5vHBTddmt2D+gGtbqHDOzBAwcup5pr9VpXBSCmiPc=
+			wroCIkZ6391jflaZSGFLuZPWRTe/3Xzb+pldUJeKL74=
 			</data>
 		</dict>
 		<key>Headers/KigoFramework.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyhQlN6t46nfKgevVW/xX1yIsOgY+dQtTpRzVskb3b8=
+			vQJsG0HNnMEMsbbiAPX5RT9K2Lcqt5jKvsyv1dneR7g=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OoXNX/b0lzybCxYXI5EB0EjySjhbwBOT6heDJQpEKlk=
+			Vrr7tdgWDt4XjHWk6UPVEm3+pMtyo+Pu4eK46QI6XhY=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hq6eaKTDbYuQCnDdj8cTkGXjQzZ8/0MI6223TH9BZkc=
+			yvt/L18bxRPbL/OG4m40zAz9BTlqDIIEdwGDRKczOic=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OoXNX/b0lzybCxYXI5EB0EjySjhbwBOT6heDJQpEKlk=
+			Vrr7tdgWDt4XjHWk6UPVEm3+pMtyo+Pu4eK46QI6XhY=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qxTwvdIIAr9hipE4rqefbieTtR0wUYWVoF08deQk3pY=
+			IO9Cv/UYwWErs12slNydZEbP3qPJYbswipUwIKdC3m8=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyhQlN6t46nfKgevVW/xX1yIsOgY+dQtTpRzVskb3b8=
+			vQJsG0HNnMEMsbbiAPX5RT9K2Lcqt5jKvsyv1dneR7g=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/QEMPItttU7lH1aPRt8AWRE8Pg5BL1A1SKfCHcjz/6Q=
+			rGF45qhHFS+B45chvWjtUUXbTk1e/hzHzu5xNWuMfCM=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8wRNmky/ud3Eq1XZ8ZFskdsXjYmhz7D93QL2zeB0BDc=
+			c3I14BDIzWM3acRDUKOzKLDJ4TibWdKIRDxiVSDWq4M=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/QEMPItttU7lH1aPRt8AWRE8Pg5BL1A1SKfCHcjz/6Q=
+			rGF45qhHFS+B45chvWjtUUXbTk1e/hzHzu5xNWuMfCM=
 			</data>
 		</dict>
 		<key>Modules/KigoFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QCRcF59RwJ34JxutIBEKOG9/Dee4LWYUiJKvSml4LaY=
+			w4Fh0GkR0SjYjkUOQhEnwWNVEZU1EsMyzgUsnWaydAw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
